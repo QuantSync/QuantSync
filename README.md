@@ -4,7 +4,7 @@
 
 ---
 
-# 🚀 Founder of QuantSync
+# 🚀 Motive of QuantSync
 
 **AI Research & Optimization | High-Performance Computing | Finance & Security Explorer | Full-Stack Developer**
 
