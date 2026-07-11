@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=Anubhav+Singh+Rajput+here;Founder+of+QuantSync;Low-Latency+AI+Architect;High-Performance+Systems+Engineer" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=QuantSync;About+QuantSync;Low-Latency+AI+Architect;High-Performance+Systems+Engineer" />
 </p> 
 
 ---
