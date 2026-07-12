@@ -1,60 +1,68 @@
-<svg width="650" height="60" viewBox="0 0 650 60" xmlns="http://www.w3.org/2000/svg">
+<svg width="650" height="90" viewBox="0 0 650 90" xmlns="http://www.w3.org/2000/svg">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&amp;display=swap');
-.wrap{font-family:'Fira Code',monospace;font-size:28px;font-weight:500;}
-.banner{animation:reveal 8s ease-in-out infinite;}
+.wrap{font-family:'Fira Code',monospace;font-size:26px;font-weight:500;width:650px;height:90px;}
+.card{
+  position:relative;
+  width:610px;height:70px;
+  margin:10px auto;
+  background:rgba(0,0,0,0.55);
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  border-radius:16px;
+  border:1px solid rgba(57,255,20,0.35);
+  box-shadow:0 0 24px rgba(57,255,20,0.35), inset 0 0 14px rgba(57,255,20,0.08);
+  animation:reveal 10s ease-in-out infinite;
+}
 @keyframes reveal{
-  0%{opacity:0;transform:scale(0.9);}
+  0%{opacity:0;transform:scale(0.82);}
   8%{opacity:1;transform:scale(1);}
   100%{opacity:1;transform:scale(1);}
 }
-.p{position:absolute;top:0;left:0;overflow:hidden;white-space:nowrap;height:60px;display:flex;align-items:center;width:0;}
-.p1{animation:p1 8s linear infinite;}
+.p{position:absolute;top:0;left:50%;transform:translateX(-50%);overflow:hidden;white-space:nowrap;height:70px;display:flex;align-items:center;justify-content:center;width:0;}
+.txt{color:#39FF14;text-shadow:0 0 6px rgba(57,255,20,0.85),0 0 16px rgba(57,255,20,0.55);}
+.cursor{color:#39FF14;text-shadow:0 0 6px rgba(57,255,20,0.85);margin-left:2px;animation:blink 1s steps(1,end) infinite;}
+@keyframes blink{0%,50%{opacity:1}51%,100%{opacity:0}}
+.p1{animation:p1 10s linear infinite;}
 @keyframes p1{
-  0%{width:0}
-  9.999%{width:0}
-  10%{width:0}
-  18%{width:340px;animation-timing-function:steps(20,end);}
-  29.9%{width:340px}
-  30%{width:0}
-  100%{width:0}
+  0%{width:0} 7.999%{width:0} 8%{width:0}
+  15%{width:370px;animation-timing-function:steps(21,end);}
+  26.3%{width:370px} 26.4%{width:0} 100%{width:0}
 }
-.p2{animation:p2 8s linear infinite;}
+.p2{animation:p2 10s linear infinite;}
 @keyframes p2{
-  0%{width:0}
-  29.999%{width:0}
-  30%{width:0}
-  37%{width:272px;animation-timing-function:steps(16,end);}
-  48.9%{width:272px}
-  49%{width:0}
-  100%{width:0}
+  0%{width:0} 26.399%{width:0} 26.4%{width:0}
+  33.4%{width:285px;animation-timing-function:steps(16,end);}
+  44.7%{width:285px} 44.8%{width:0} 100%{width:0}
 }
-.p3{animation:p3 8s linear infinite;}
+.p3{animation:p3 10s linear infinite;}
 @keyframes p3{
-  0%{width:0}
-  48.999%{width:0}
-  49%{width:0}
-  58%{width:476px;animation-timing-function:steps(28,end);}
-  72.9%{width:476px}
-  73%{width:0}
-  100%{width:0}
+  0%{width:0} 44.799%{width:0} 44.8%{width:0}
+  51.8%{width:460px;animation-timing-function:steps(26,end);}
+  63.1%{width:460px} 63.2%{width:0} 100%{width:0}
 }
-.p4{animation:p4 8s linear infinite;}
+.p4{animation:p4 10s linear infinite;}
 @keyframes p4{
-  0%{width:0}
-  72.999%{width:0}
-  73%{width:0}
-  83%{width:578px;animation-timing-function:steps(34,end);}
-  99.9%{width:578px}
-  100%{width:0}
+  0%{width:0} 63.199%{width:0} 63.2%{width:0}
+  70.2%{width:250px;animation-timing-function:steps(14,end);}
+  81.5%{width:250px} 81.6%{width:0} 100%{width:0}
+}
+.p5{animation:p5 10s linear infinite;}
+@keyframes p5{
+  0%{width:0} 81.599%{width:0} 81.6%{width:0}
+  88.6%{width:235px;animation-timing-function:steps(13,end);}
+  99.9%{width:235px} 100%{width:0}
 }
 </style>
-<foreignObject x="10" y="0" width="630" height="60">
-  <div xmlns="http://www.w3.org/1999/xhtml" class="wrap banner" style="position:relative;width:630px;height:60px;">
-    <div class="p p1"><span style="color:#FFFFFF">Welcome to&#160;</span><span style="color:#22C55E">QuantSync</span></div>
-    <div class="p p2"><span style="color:#FFFFFF">About&#160;</span><span style="color:#22C55E">QuantSync&#160;</span></div>
-    <div class="p p3"><span style="color:#FF7A00">Low&#160;Latency&#160;</span><span style="color:#22C55E">A.I&#160;</span><span style="color:#FFFFFF">Architecture</span></div>
-    <div class="p p4"><span style="color:#FFFFFF">High&#160;Performance&#160;</span><span style="color:#22C55E">Systems&#160;</span><span style="color:#FF7A00">Engineer</span></div>
+<foreignObject x="0" y="0" width="650" height="90">
+  <div xmlns="http://www.w3.org/1999/xhtml" class="wrap">
+    <div class="card">
+      <div class="p p1"><span class="txt">Welcome to QuantSync</span><span class="cursor">&#9612;</span></div>
+      <div class="p p2"><span class="txt">About QuantSync</span><span class="cursor">&#9612;</span></div>
+      <div class="p p3"><span class="txt">Low Latency System Design</span><span class="cursor">&#9612;</span></div>
+      <div class="p p4"><span class="txt">Better Results</span><span class="cursor">&#9612;</span></div>
+      <div class="p p5"><span class="txt">Faster Output</span><span class="cursor">&#9612;</span></div>
+    </div>
   </div>
 </foreignObject>
 </svg>
