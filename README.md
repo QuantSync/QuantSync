@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AnubhavSinghRajputh/AnubhavSinghRajputh/main/assets/typing-banner.svg" width="650" />
+  <img src="typing-banner.svg" width="650" />
 </p>
 
 ---
