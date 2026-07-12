@@ -1,6 +1,11 @@
 <svg width="650" height="90" viewBox="0 0 650 90" xmlns="http://www.w3.org/2000/svg">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+/* Note: The @import rule directly in SVG <style> can be unreliable across all renderers.
+   A more robust approach for broader compatibility might involve embedding
+   font data or ensuring the font is locally available if targeting specific environments.
+   However, for GitHub README rendering, this is generally sufficient. */
+
 .wrap{font-family:'Fira Code',monospace;font-size:26px;font-weight:500;width:650px;height:90px;}
 .card{
   position:relative;
